@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "encoded"
+version = "0.1.0"
+description = ""
+authors = ["Sanjaya Subedi <jangedoo@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+rope = "^1.5.1"
+black = "^22.10.0"
+flake8 = ">5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
